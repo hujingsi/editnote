@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.memoapp.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="周记记事"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/abc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"/>
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/date"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:background="@drawable/date2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="日历"
+                android:textColor="#D8DDE1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D8DDE1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D8DD"
+        android:orientation="vertical"
+
+        >
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#D8DDE1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="周一" />
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+
+                    >
+
+                </ListView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#D8DDE1" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="周二" />
+
+                <ListView
+                    android:id="@+id/listview2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp">
+
+                </ListView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#D8DDE1" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="周三" />
+
+                <ListView
+                    android:id="@+id/listview3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp">
+
+                </ListView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#D8DDE1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#D8DDE1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="周四" />
+
+                <ListView
+                    android:id="@+id/listview4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp">
+
+                </ListView>
+            </LinearLayout>
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#D8DDE1" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="周五" />
+
+                <ListView
+                    android:id="@+id/listview5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"></ListView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#D8DDE1" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="周六 " />
+
+                <ListView
+                    android:id="@+id/listview6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"></ListView>
+            </LinearLayout>
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#D8DDE1" />
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#D8DDE1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="周日 " />
+
+                <ListView
+                    android:id="@+id/listview7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"></ListView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#D8DDE1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#D8DDE1" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#D8DDE1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_editnote"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/add_note"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=" 新建"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>
